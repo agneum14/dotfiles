@@ -1,0 +1,22 @@
+window:
+  dimensions:
+    columns:  68
+    lines: 22
+
+  padding:
+   x: 3
+   y: 3
+
+scrolling:
+  history: 10000
+
+font:
+  normal:
+    family: DejaVu Sans Mono
+
+  size: 8.5
+
+  builtin_box_drawing: true
+
+import:
+  - ~/.config/alacritty/alacritty-colorscheme/themes/dracula.yaml
