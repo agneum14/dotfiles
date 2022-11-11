@@ -1,5 +1,5 @@
-set tabstop=3 softtabstop=4
-set shiftwidth=3
+set tabstop=2 softtabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 set guicursor=
@@ -44,9 +44,9 @@ colorscheme dracula
 set background=dark
 
 let mapleader = " "
-nnoremap <leader>f :Files<CR>
-nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>c :Colors<CR>
+nnoremap <leader>ff :Files<CR>
+nnoremap <leader>fb :Buffers<CR>
+nnoremap <leader>fc :Colors<CR>
 
 let g:coc_global_extensions = ['coc-clangd', 'coc-pyright', 'coc-json', 'coc-markdownlint']
 let g:airline_theme = "bubblegum"
