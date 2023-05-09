@@ -21,6 +21,7 @@ set colorcolumn=80
 set signcolumn=yes
 set updatetime=300
 set termguicolors
+set exrc
 
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -48,7 +49,7 @@ nnoremap <leader>ff :Files<CR>
 nnoremap <leader>fb :Buffers<CR>
 nnoremap <leader>fc :Colors<CR>
 
-let g:coc_global_extensions = ['coc-clangd', 'coc-pyright', 'coc-json', 'coc-markdownlint']
+let g:coc_global_extensions = ['coc-clangd', 'coc-pyright', 'coc-json', 'coc-markdownlint', 'coc-java', 'coc-texlab']
 let g:airline_theme = "bubblegum"
 
 augroup vimrc
