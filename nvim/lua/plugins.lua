@@ -36,5 +36,9 @@ return {
         event = "InsertEnter",
         opts = {} -- this is equalent to setup({}) function
     },
-    'dracula/vim'
+
+    -- COLORSCHEMES
+    'dracula/vim',
+    'folke/tokyonight.nvim',
+    'overcache/NeoSolarized',
 }
