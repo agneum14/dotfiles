@@ -6,6 +6,8 @@ return {
 		depencies = { 'nvim-tree/nvim-web-devicons' }
 	},
 	{
-		'dracula/vim'
-	}
+		'nvim-treesitter/nvim-treesitter',
+		build = ':TSUpdate'
+	},
+	'dracula/vim'
 }
