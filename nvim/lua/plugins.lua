@@ -30,5 +30,6 @@ return {
     }
   },
   'mfussenegger/nvim-jdtls',
+  'ggandor/leap.nvim',
 	'dracula/vim'
 }
