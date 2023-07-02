@@ -3,11 +3,12 @@ return {
     {
         'ibhagwan/fzf-lua',
         branch = 'main',
-        depencies = { 'nvim-tree/nvim-web-devicons' }
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
     },
     {
         'nvim-treesitter/nvim-treesitter',
-        build = ':TSUpdate'
+        build = ':TSUpdate',
+        dependencies = 'JoosepAlviste/nvim-ts-context-commentstring'
     },
     {
         'VonHeikemen/lsp-zero.nvim',
@@ -36,9 +37,12 @@ return {
         event = "InsertEnter",
         opts = {} -- this is equalent to setup({}) function
     },
+    'terrortylor/nvim-comment',
 
     -- COLORSCHEMES
     'dracula/vim',
     'folke/tokyonight.nvim',
     'overcache/NeoSolarized',
+    'ellisonleao/gruvbox.nvim',
+    'rose-pine/neovim',
 }
