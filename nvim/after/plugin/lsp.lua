@@ -13,6 +13,10 @@ lsp.ensure_installed({
     'tailwindcss',
     'jdtls',
     'lua_ls',
+    'dockerls',
+    'docker_compose_language_service',
+    'jsonls',
+    'eslint',
 })
 
 lsp.set_sign_icons({

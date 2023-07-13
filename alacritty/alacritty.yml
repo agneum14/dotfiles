@@ -1,11 +1,13 @@
 window:
   dimensions:
-    columns:  68
+    columns: 68
     lines: 22
 
   padding:
-   x: 3
-   y: 3
+    x: 3
+    y: 3
+
+  opacity: 0.8
 
 scrolling:
   history: 10000
@@ -19,7 +21,7 @@ font:
   builtin_box_drawing: true
 
 key_bindings:
-  - { key: N,         mods: Control,                    action: CreateNewWindow }
+  - { key: N, mods: Control, action: CreateNewWindow }
 
 import:
   - ~/.config/alacritty/alacritty-colorscheme/themes/dracula.yaml

@@ -38,6 +38,7 @@ return {
         opts = {} -- this is equalent to setup({}) function
     },
     'terrortylor/nvim-comment',
+    'xiyaowong/transparent.nvim',
 
     -- COLORSCHEMES
     'dracula/vim',
