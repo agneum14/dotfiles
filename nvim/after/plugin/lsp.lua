@@ -17,6 +17,8 @@ lsp.ensure_installed({
     'docker_compose_language_service',
     'jsonls',
     'eslint',
+    'rust_analyzer',
+    'taplo',
 })
 
 lsp.set_sign_icons({

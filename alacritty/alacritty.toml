@@ -1,0 +1,11 @@
+live_config_reload = true
+
+[window]
+dimensions = { columns = 68, lines = 22 }
+padding = { x = 3, y = 3 }
+opacity = 0.8
+decorations = "None"
+
+[font]
+size = 8.5
+builtin_box_drawing = true
