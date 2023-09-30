@@ -28,9 +28,12 @@ return {
             { 'hrsh7th/nvim-cmp' },     -- Required
             { 'hrsh7th/cmp-nvim-lsp' }, -- Required
             { 'L3MON4D3/LuaSnip' },     -- Required
+            { "rafamadriz/friendly-snippets" },
+            { "https://github.com/saadparwaiz1/cmp_luasnip" },
         }
     },
     'mfussenegger/nvim-jdtls',
+    { "folke/neodev.nvim", opts = {} },
     'ggandor/leap.nvim',
     {
         'windwp/nvim-autopairs',
