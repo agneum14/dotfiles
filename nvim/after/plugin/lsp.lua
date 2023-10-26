@@ -21,7 +21,7 @@ lsp.ensure_installed({
     'taplo',
     'gopls',
     'bashls',
-    'pyright',
+    'pylsp',
     'texlab',
 })
 
