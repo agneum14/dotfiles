@@ -42,8 +42,12 @@ return {
     },
     'terrortylor/nvim-comment',
     'xiyaowong/transparent.nvim',
+    {
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+    },
 
-    -- COLORSCHEMES
+ -- COLORSCHEMES
     'dracula/vim',
     'folke/tokyonight.nvim',
     'overcache/NeoSolarized',
