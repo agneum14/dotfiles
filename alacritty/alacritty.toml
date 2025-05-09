@@ -1,3 +1,4 @@
+[general]
 live_config_reload = true
 
 [window]
@@ -9,3 +10,9 @@ decorations = "None"
 [font]
 size = 8.5
 builtin_box_drawing = true
+
+[keyboard]
+bindings = [
+{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+{ key = "L", mods = "Control|Shift", chars = "l" },
+]
